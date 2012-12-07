@@ -1,0 +1,21 @@
+{
+  "name": "jasmine",
+  "repo": "bestander/jasmine",
+  "description": "A JavaScript Testing Framework",
+  "version": "1.3.1",
+  "keywords": [
+    "unit testing",
+    "bdd",
+    "jasmine"
+  ],
+  "development": {},
+  "main": "lib/jasmine-core/jasmine.js",
+  "styles": [
+    "lib/jasmine-core/jasmine.css"
+  ],
+  "scripts": [
+    "lib/jasmine-core/jasmine-html.js",
+    "lib/jasmine-core/jasmine.js"
+  ],
+  "license": "MIT"
+}
