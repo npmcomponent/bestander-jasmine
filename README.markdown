@@ -25,6 +25,37 @@ Then in the spec-runner HTML do
     <!-- list of your test spec files -->
     <script type="text/javascript" src="logic.spec.js"></script>
     <script type="text/javascript" src="moreLogic.spec.js"></script>
+    <script type="text/javascript">
+        (function () {
+          var currentWindowOnload;
+          var htmlReporter;
+          var jasmine = require("<host name>/deps/jasmine");
+          var jasmineEnv = jasmine.getEnv();
+          jasmineEnv.updateInterval = 1000;
+
+          htmlReporter = new jasmine.HtmlReporter();
+
+          jasmineEnv.addReporter(htmlReporter);
+
+          jasmineEnv.specFilter = function (spec) {
+            return htmlReporter.specFilter(spec);
+          };
+
+          currentWindowOnload = window.onload;
+
+          window.onload = function () {
+            if (currentWindowOnload) {
+              currentWindowOnload();
+            }
+            execJasmine();
+          };
+
+          function execJasmine() {
+            jasmineEnv.execute();
+          }
+
+        })();
+    </script>
 ```
 
 ## Support

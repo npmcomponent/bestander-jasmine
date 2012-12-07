@@ -9,11 +9,12 @@
     "jasmine"
   ],
   "development": {},
-  "main": "lib/jasmine-core/jasmine.js",
+  "main": "index.js",
   "styles": [
     "lib/jasmine-core/jasmine.css"
   ],
   "scripts": [
+    "index.js",
     "lib/jasmine-core/jasmine-html.js",
     "lib/jasmine-core/jasmine.js"
   ],
