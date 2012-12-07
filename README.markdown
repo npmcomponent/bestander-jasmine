@@ -29,7 +29,7 @@ Then in the spec-runner HTML do
         (function () {
           var currentWindowOnload;
           var htmlReporter;
-          var jasmine = require("<host name>/deps/jasmine");
+          var jasmine = require("<host name>/deps/jasmine").jasmine;
           var jasmineEnv = jasmine.getEnv();
           jasmineEnv.updateInterval = 1000;
 
