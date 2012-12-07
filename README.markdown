@@ -11,7 +11,7 @@ Documentation & guides live here: [http://pivotal.github.com/jasmine/](http://pi
 The best way to use this component is to define it as a dev dependency in your component.json file.  
 ```json
   "development": {
-    "bestander/component": "*"
+    "bestander/jasmine": "*"
   }
 ```
 Then in the spec-runner HTML do
