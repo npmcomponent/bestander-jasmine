@@ -7,6 +7,25 @@ Jasmine is a Behavior Driven Development testing framework for JavaScript. It do
 
 Documentation & guides live here: [http://pivotal.github.com/jasmine/](http://pivotal.github.com/jasmine/)
 
+## Component notes
+The best way to use this component is to define it as a dev dependency in your component.json file.  
+```json
+  "development": {
+    "bestander/component": "*"
+  }
+```
+Then in the spec-runner HTML do
+```html
+    <!-- no links to jasmine standalone component -->
+
+    <!-- path to a `component(1)` built package -->
+    <script type="text/javascript" src="../build/build-dev.js"></script>
+    <script type="text/javascript" src="../build/build-dev.css"></script>
+
+    <!-- list of your test spec files -->
+    <script type="text/javascript" src="logic.spec.js"></script>
+    <script type="text/javascript" src="moreLogic.spec.js"></script>
+```
 
 ## Support
 
