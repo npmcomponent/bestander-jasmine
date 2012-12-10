@@ -1,5 +1,5 @@
 <a name="README">[Jasmine](http://pivotal.github.com/jasmine/)</a> <a title="Build at Travis CI" href="http://travis-ci.org/#!/pivotal/jasmine"><img src="https://secure.travis-ci.org/pivotal/jasmine.png" /></a>
-
+[![web component logo](https://component.jit.su/component-badge.svg)](https://github.com/component/component)
 =======
 **A JavaScript Testing Framework**
 
