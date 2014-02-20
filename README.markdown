@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [bestander/jasmine](http://github.com/bestander/jasmine). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/bestander-jasmine`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 <a name="README">[Jasmine](http://pivotal.github.com/jasmine/)</a> <a title="Build at Travis CI" href="http://travis-ci.org/#!/pivotal/jasmine"><img src="https://secure.travis-ci.org/pivotal/jasmine.png" /></a>
 [![web component logo](https://component.jit.su/component-badge.svg)](https://github.com/component/component)
 =======
